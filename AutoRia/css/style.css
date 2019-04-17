@@ -1,0 +1,80 @@
+.main {
+    background-color: azure;
+    margin: 35px 130px;
+    border: 1px solid black;
+    width: 1635px;
+    height: 700px;
+}
+
+.class1 {
+    width: 485px;
+    height: 650px;
+    float: left;
+    overflow: auto;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 7px;
+}
+
+.box {
+    height: 155px;
+    width: 261px;
+    float: left;
+    margin: 5px;
+}
+
+.p1 {
+    height: 155px;
+    width: 252px;
+    float: left;
+    margin: 5px;
+}
+
+.p2 {
+    margin: 3px;
+    height: 50px;
+    width: 80px;
+    float: left;
+}
+
+.box2 {
+    margin: 5px;
+    height: 56px;
+    width: 261px;
+    float: left;
+}
+
+.header {
+    background-color: lightskyblue;
+    margin: 35px 130px;
+    border: 3px solid black;
+    width: 1635px;
+    height: 62px;
+}
+
+.nav {
+    background-color: blackred;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    padding: 5px;
+    font: Times New Roman;
+}
+
+li a {
+    display: block;
+    padding: 13px;
+    color: blackred;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: blackred;
+  color: white;
