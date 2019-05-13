@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+#anim{
+  width: 5%;
+  height: 1000px;
+  background-color: grey;
+  border: solid;black;
+  float:right;
+}
+.ANIMA{
+ width: 5%;
+  height: 1000px;
+  background-color: grey;
+  border: solid;black;
+  float:right;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  
+  animation-play-state:running;
+}
+.anime1{
+ width: 5%;
+  height: 1000px;
+  background-color: grey;
+  border: solid;black;
+  float:right;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; 
+  animation-play-state:paused;
+
+}
+b{
+color:white
+}
+@keyframes text{
+
+}
+
+
+@keyframes example {
+  0%   {width: 5%}
+  100% {width: 100%}
+}
+}
+
+</style>
+</head>
+<style>
+#anim{
+  width: 5%;
+  height: 1000px;
+  background-color: grey;
+  border: solid;black;
+  float:right;
+}
+.ANIMA{
+ width: 5%;
+  height: 1000px;
+  background-color: grey;
+  border: solid;black;
+  float:right;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  
+  animation-play-state:running;
+}
+.anime1{
+ width: 5%;
+  height: 1000px;
+  background-color: grey;
+  border: solid;black;
+  float:right;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; 
+  animation-play-state:paused;
+
+}
+b{
+color:white
+}
+@keyframes text{
+
+}
+
+
+@keyframes example {
+  0%   {width: 5%}
+  100% {width: 100%}
+}
+}
+
+</style>
+<body>
+<div id="anim" onclick="Func()" class="anime1" >
+<nav><a href="hpref1.html"><b>hpref1</b></a></nav>
+</div >
+<script>
+
+function megaFunction() {
+	setTimeout(function (){
+		var div1 = document.getElementById("anim");
+		div1.classList.toggle("anime1");
+	}, 1000);
+}
+
+function Func(){
+	megaFunction();
+	var div2 = document.getElementById("anim");
+	var div1 = document.getElementById("anim");
+	div2.classList.toggle("ANIMA");
+	div1.classList.toggle("anime1")
+}
+
+</script>
+
+</body>
+</html>
